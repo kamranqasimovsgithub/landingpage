@@ -1,0 +1,9 @@
+@import url(navigation.css);
+
+.header{
+    padding: 2rem 0;
+}
+
+.header .logo img{
+    height: 80px;
+}
