@@ -92,7 +92,7 @@
 
     .pink-section-small img{
         width: 80%;
-        height: 50%;
+        height: 80%;
         margin: 5px auto;
     }
 
@@ -164,7 +164,7 @@
 }
 .pink-section-background{
     background-position: right;
-    background-image: url('../image/image-sect-3.png');
+    background-image: url('../image/image-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50px;
@@ -243,3 +243,11 @@
 }
 
 
+@media screen and (max-width: 394px) {
+    .pink-section-small img{
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin: 5px auto;
+    }
+}
