@@ -1,3 +1,5 @@
+
+
 .navigation .navigation-list .navigation-item .navigation-link{
     display: block;
     font-size: 1rem;
@@ -27,4 +29,31 @@
     .navigation{
         margin-left: 124px;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .navigation .navigation-list{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    /* #nav-column{
+        display: none;
+        background-color: aquamarine;
+    } */
+    
+}
+
+
+
+@media screen and (max-width: 394px) {
+    .row-small-size{
+        align-items: center;
+        font-weight: nowrap;
+    }
+    
 }

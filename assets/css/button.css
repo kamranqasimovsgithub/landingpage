@@ -6,9 +6,7 @@ button, .button{
     display: flex;
     align-items: center;
 }
-.icon-button span{
-    padding-right: 1rem;
-}
+
 .white-button{
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     background-color: #fff;
@@ -38,5 +36,18 @@ button, .button{
         margin-top: 20px;
         
     }
+}
 
+@media screen and (max-width: 394px) {
+    .header .white-button{
+        margin: 0 auto;
+        justify-content: center;
+        padding:10px 0;
+        margin-left: -100px;
+    }
+
+    .header .white-button span{
+        font-size: 12px;
+        text-align: center;
+    }
 }
