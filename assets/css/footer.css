@@ -7,7 +7,9 @@
 .footer{
     margin-top: 150px;
     padding-top: 50px;
+    padding: 20px;
     padding-bottom: 90px;
+    
 }
 
 .footer h3{
@@ -131,6 +133,12 @@
     .footer-contact-button{
         justify-content: center;
         align-items: center;
+    }
+
+    .footer-contact-button .column{
+        margin-right: auto;
+        margin-left: auto;
+
     }
     .footer-contact-button h3{
         font-size: 40px;
